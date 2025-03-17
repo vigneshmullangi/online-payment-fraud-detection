@@ -34,3 +34,14 @@ You can install the required dependencies by running:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+
+## Dataset
+
+The dataset used in this project is available for download from [Kaggle: Credit Card Fraud Detection](https://www.kaggle.com/datasets/) (please replace the URL with the correct one).
+
+Alternatively, you can download the dataset manually and place it in the project folder.
+
+### Example:
+```python
+data = pd.read_csv("path/to/PS_20174392719_1491204439457_log.csv")
+
