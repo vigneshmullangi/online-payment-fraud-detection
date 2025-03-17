@@ -31,9 +31,7 @@ To run this project, you need to install the following Python libraries:
 - `xgboost`
 
 You can install the required dependencies by running:
-
-## bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+--pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 
 
 ## Model Evaluation
