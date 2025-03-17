@@ -77,8 +77,8 @@ This project successfully demonstrates the application of machine learning model
 
 You can download the dataset by clicking the button below:
 
-<a href="https://drive.google.com/file/d/your-file-id/view?usp=sharing" target="_blank">
-  <img src="https://img.shields.io/badge/Download-Dataset-blue?style=for-the-badge&logo=google-drive" alt="Download Dataset">
+<a href="https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset" target="_blank">
+  <img src="https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset" alt="Download Dataset">
 </a>
 
 
