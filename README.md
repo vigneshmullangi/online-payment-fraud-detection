@@ -54,3 +54,32 @@ These evaluation metrics demonstrate that **XGBoost** performed the best, achiev
 
 We further visualized the performance of the best model (XGBoost) using a **confusion matrix**, which helped to assess the true positive and false positive rates.
 
+## Results
+
+The models were evaluated using various performance metrics, with a particular focus on the **ROC-AUC score**. The results from the models show promising performance, especially with the **XGBoost** model, which provided the highest accuracy.
+
+- **XGBoost** achieved excellent validation accuracy (99.90%) and training accuracy (99.99%), making it the most effective model for this task.
+- **Random Forest** showed a strong validation accuracy of 95.32%, which also demonstrates its suitability for this type of classification task.
+- **Logistic Regression**, although not as high-performing as the others, still achieved an accuracy of 88.81% on validation data, which is reasonable given the nature of the dataset and its features.
+
+These results suggest that the models can effectively identify fraudulent transactions. The dataset's imbalance (with far fewer fraudulent transactions than non-fraudulent ones) did not significantly hinder model performance, but further work can be done to address this imbalance (e.g., through resampling techniques).
+
+## Conclusion
+
+This project successfully demonstrates the application of machine learning models for detecting fraud in online payment systems. By leveraging algorithms such as **Logistic Regression**, **Random Forest**, and **XGBoost**, we were able to build models that can classify transactions as fraudulent or non-fraudulent with high accuracy.
+
+### Key Takeaways:
+- **XGBoost** performed the best, achieving nearly perfect accuracy on both training and validation data.
+- **Random Forest** also showed promising results, especially in terms of generalization to unseen data.
+- **Logistic Regression**, while less effective, still offered a valuable baseline.
+
+## Dataset
+
+You can download the dataset by clicking the button below:
+
+<a href="https://drive.google.com/file/d/your-file-id/view?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/Download-Dataset-blue?style=for-the-badge&logo=google-drive" alt="Download Dataset">
+</a>
+
+
+
