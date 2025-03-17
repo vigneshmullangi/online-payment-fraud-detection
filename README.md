@@ -6,11 +6,8 @@ This project aims to build a machine learning model for detecting fraud in onlin
 1. [Project Overview](#project-overview)
 2. [Dependencies](#dependencies)
 3. [Dataset Description](#dataset-description)
-4. [Data Preprocessing](#data-preprocessing)
-5. [Model Training](#model-training)
-6. [Model Evaluation](#model-evaluation)
-7. [Results](#results)
-8. [Conclusion](#conclusion)
+4. [Results](#results)
+5. [Conclusion](#conclusion)
 
 ## Project Overview
 
