@@ -32,16 +32,27 @@ To run this project, you need to install the following Python libraries:
 
 You can install the required dependencies by running:
 
-```bash
+## bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost
 
-## Dataset
 
-The dataset used in this project is available for download from [Kaggle: Credit Card Fraud Detection](https://www.kaggle.com/datasets/) (please replace the URL with the correct one).
+## Model Evaluation
 
-Alternatively, you can download the dataset manually and place it in the project folder.
+After training the models, we evaluated them using the **ROC-AUC score** to measure their performance. Below are the results for each model:
 
-### Example:
-```python
-data = pd.read_csv("path/to/PS_20174392719_1491204439457_log.csv")
+### Logistic Regression
+- **Training Accuracy**: 88.89%
+- **Validation Accuracy**: 88.81%
+
+### XGBoost Classifier
+- **Training Accuracy**: 99.99%
+- **Validation Accuracy**: 99.90%
+
+### Random Forest Classifier
+- **Training Accuracy**: 99.99%
+- **Validation Accuracy**: 95.32%
+
+These evaluation metrics demonstrate that **XGBoost** performed the best, achieving nearly perfect training and validation accuracy. However, the **Random Forest** model also showed strong results, particularly with a solid validation accuracy of 95.32%. **Logistic Regression**, while slightly lower in performance, still achieved a respectable accuracy of around 88% on both training and validation data.
+
+We further visualized the performance of the best model (XGBoost) using a **confusion matrix**, which helped to assess the true positive and false positive rates.
 
